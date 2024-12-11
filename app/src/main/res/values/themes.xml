@@ -1,17 +1,18 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.Videoclase2" parent="Theme.Material3.DayNight">
-        <!-- Customize your light theme here. -->
+
+    <style name="Base.Theme.ClickableToolbar" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
 
         <!-- SplashScreen cofiguration-->
         <item name="android:windowSplashScreenAnimatedIcon">@drawable/super_mario_ia</item>
-        <item name="android:windowSplashScreenAnimationDuration">1000</item>
+        <item name="android:windowSplashScreenAnimationDuration">2500</item>
         <item name="android:windowSplashScreenIconBackgroundColor">@color/colorPrimary</item>
         <item name="android:windowSplashScreenBackground">@color/colorPrimary</item>
     </style>
 
-    <style name="Theme.Videoclase2" parent="Base.Theme.Videoclase2" />
+
+
 </resources>

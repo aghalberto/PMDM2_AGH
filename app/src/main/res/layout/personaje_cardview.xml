@@ -2,8 +2,8 @@
 
     <data>
         <variable
-            name="game"
-            type="dam.pmdm.videoclase2.GameData" />
+            name="personaje"
+            type="dam.pmdm.tarea2.PersonajeData" />
     </data>
 
     <androidx.cardview.widget.CardView
@@ -34,14 +34,14 @@
                     android:id="@+id/name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Game name"
+                    android:text="@string/p_name"
                     android:textSize="20sp" />
 
-                <TextView
-                    android:id="@+id/releaseYear"
+                <!--TextView
+                    android:id="@+id/description"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Game date" />
+                    android:text="@string/p_description" /-->
 
             </LinearLayout>
         </LinearLayout>

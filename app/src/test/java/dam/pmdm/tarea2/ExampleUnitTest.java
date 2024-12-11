@@ -1,4 +1,4 @@
-package dam.pmdm.videoclase2;
+package dam.pmdm.tarea2;
 
 import org.junit.Test;
 

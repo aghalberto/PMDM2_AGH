@@ -1,21 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Fragmento inicial de la app -->
+<!--app:startDestination="@id/mainFragment"-->
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:startDestination="@id/mainFragment"> <!-- Cambia esto al fragmento inicial de tu app -->
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/personajeListFragment">
 
     <!-- Definición del MainFragment -->
-    <fragment
+    <!--fragment
         android:id="@+id/mainFragment"
-        android:name="dam.pmdm.videoclase2.GameListFragment"
-        android:label="Main Fragment" >
+        android:name="dam.pmdm.tarea2.PersonajeListFragment"
+        android:label="@string/main_fragment" >
+    </fragment-->
 
-        <!-- Agrega aquí las acciones y destinos que se pueden realizar desde el MainFragment si es necesario -->
-
-    </fragment>
-
-    <!-- Definición del GameDetailFragment -->
     <fragment
-        android:id="@+id/gameDetailFragment"
-        android:name="dam.pmdm.videoclase2.GameDetailFragment"
-        android:label="Game Detail Fragment" />
+        android:id="@+id/personajeListFragment"
+        android:name="dam.pmdm.tarea2.PersonajeListFragment"
+        android:label="@string/main_fragment"
+        tools:layout="@layout/personaje_list_fragment" />
+
+    <!-- Definición del PersonajeDetailFragment -->
+    <fragment
+        android:id="@+id/personajeDetailFragment"
+        android:name="dam.pmdm.tarea2.PersonajeDetailFragment"
+        android:label="@string/detail_fragment" />
+
+    <fragment
+        android:id="@+id/preferencesFragment"
+        android:name="dam.pmdm.tarea2.PreferencesFragment"
+        android:label="PreferencesFragment" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="dam.pmdm.tarea2.SettingsFragment"
+        android:label="@string/settings_fragment"/>
+
 </navigation>

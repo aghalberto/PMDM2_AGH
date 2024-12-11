@@ -4,4 +4,8 @@
     <color name="colorAccent">#007FFF</color> <!-- Azul para los acentos -->
     <color name="toolbarTextColor">#FFFFFF</color> <!-- Blanco para el texto de la Toolbar -->
     <color name="backgroundColor">#FFFFFF</color> <!-- Blanco para el fondo general -->
+    <!--Colores night-->
+    <color name="colorPrimaryNight">#0000FF</color> <!-- Azul para la Toolbar -->
+    <color name="colorPrimaryDarkNight">#2222B2</color> <!-- Azul más oscuro -->
+    <color name="colorAccentNight">#7FFF00</color> <!-- Verde para los acentos -->
 </resources>

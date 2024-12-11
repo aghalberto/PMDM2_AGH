@@ -1,0 +1,9 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SwitchPreferenceCompat
+
+        app:key="english"
+        app:summaryOff="@string/spanish"
+        app:summaryOn="@string/english"
+        app:title="@string/language" />
+
+</PreferenceScreen>

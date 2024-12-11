@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Videoclase2"
+rootProject.name = "PMDM2_Tarea"
 include(":app")
  
